@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </head>
+  <style>
+    /* This only changes this particular animation duration */
+    .animate__animated.animate__fadeInUp {
+    --animate-duration: 5s;
+  }
+  
+  .animate__animated.animate__fadeIn {
+  --animate-duration: 3s;
+}
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+  </style>
+  <body>
+    
+    <title>Logistik Hari Ini</title>
+    <div class="container-fluid">
+      
+      <nav class="navbar navbar-expand-lg navbar-dark  bg-primary">
+        <a class="navbar-brand" href="index.html">SILP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="informasi pelabuhan.html">Informasi Pelabuhan <span class="sr-only">(current)</span></a>
+              </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="logistikaja.html">Logistik <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="dokumentasi kapal.html">Dokumentasi kapal<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="surat.html">Surat<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="pengiriman1.html">Pengiriman<span class="sr-only">(current)</span></a>
+              </li>   
+              <li class="nav-item active">
+                <a class="nav-link" href="mitra.html">Mitra<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Akun
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="signup.html">sign up</a>
+                <a class="dropdown-item" href="login.html">login</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="logout.html">logout</a>
+            </div>
+            </li>
+            
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit" class="btn">Search</button>
+        </form>
+        </div>
+      </nav>
+      <div class="container-fluid animate__animated animate__fadeIn">
+        <div class="row">
+            <img src="image/Capture3.JPG"  class="img-fluid" alt="Responsive image"  alt="">
+            </div>
+         
+        <div class="row animate__animated animate__fadeInUp">
+            <div class="col-sm-12"></div>
+            <div class="col-sm-12" style="background-color:#bec0c0a2; color:grey; text-align: center;"><h1>Data dan Informasi Logistik</h1>
+            </div>
+        
+            <div class="col-sm-12" style="background-color:#bec0c0a2; color:grey; text-align: left;"><h1>Data Kapal Sandar</h1>
+            </div>
+            
+            
+            <div class="container-fluid">
+                <div class="row">
+                   </div>
+                </div>
+              <table class="table table-bordered" id="example">
+                <thead class="thead-light">
+                  <tr>
+                    
+                    <th scope="col">NO IMO</th>
+                    <th scope="col">Nama kapal</th>
+                    <th scope="col">Tanggal Datang</th>
+                    <th scope="col">Asal</th>
+                    <th scope="col">Status Bongkar</th>
+                    <th scope="col">Muatan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1235436</td>
+                    <td>Indah Costa</td>
+                    <td>22-10-2021</td>
+                    <td>Surabaya</td>
+                    <td>Sudah Selesai</td>
+                    <td>Beras</td>
+                </tr>
+                <tr>
+                    <td>9876587</td>
+                    <td>Cengkeh 6</td>
+                    <td>28-10-2021</td>
+                    <td>Jakarta</td>
+                    <td>Sudah Selesai</td>
+                    <td>Semen</td>
+                </tr>
+                <tr>
+                    <td>8786235</td>
+                    <td>Permata Sakti</td>
+                    <td>03-11-2021</td>
+                    <td>Jakarta</td>
+                    <td>Belum</td>
+                    <td>Perkakas (Aksesoris)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>2309431</td>
+                    <td>Logistik Nusantara 2</td>
+                    <td>07-11-2021</td>
+                    <td>jakarta</td>
+                    <td>Proses(10-11)</td>
+                    <td>Alat Bangunan (besi, baja rigan)</td>
+                </tr>
+                <tr>
+                    <td>4327657</td>
+                    <td>Logistik Nusantara 2</td>
+                    <td>11-11-2021</td>
+                    <td>Belawan</td>
+                    <td>Proses (15-11)</td>
+                    <td>Minyak Goreng (olahan sawit dan lemak)</td>
+                </tr>
+                <tr>
+                    <td>9869878</td>
+                    <td>Cengkeh 5</td>
+                    <td>15-11-2021</td>
+                    <td>jakarta</td>
+                    <td>Proses (20-11)</td>
+                    <td>Textile (pakaian, bahan, benang)</td>
+                </tr>
+                <tr>
+                    <td>2543654</td>
+                    <td>Intan Samudra</td>
+                    <td>21-11-2021</td>
+                    <td>pontianak</td>
+                    <td>Belum</td>
+                    <td>Beras</td>
+                </tr>
+                </tbody>
+                </table>
+              
+                <nav aria-label="...">
+                  <ul class="pagination pagination-lg">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#" tabindex="-1">1</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  </ul>
+                  </nav>
+
+                   
+      <title>FOOTER</title>
+      <body>
+            <div class="container-fluid">
+                <div class="row">
+                   <div class="col-sm-12" style="background-color:#0061ff; color:white; text-align: center;"><h1>PELINDO 1</h1>
+                   <hr style="background-color: #4E4E4E;">
+                   
+            <br>
+            <div class="container">
+             <div class="row">
+               <div class="col-sm">
+                 Pelindo 1
+               </div>
+               <div class="col-sm">
+                 Pelindo 2
+               </div>
+               <div class="col-sm">
+                 Sri Payung
+               </div>
+               <div class="col-sm">
+                 Sri bintan Pura
+               </div>
+               <div class="col-sm">
+                 Tanjung Uban / Teluk Sasah
+             </div>
+             <div class="col-sm">
+                 Sei Kolak Kijang
+             </div>
+             <div class="col-sm">
+                 Tanjung Batu Kundur
+             </div>
+             </div>
+           </div>
+           
+          <hr style="background-color: #4E4E4E;">
+            Copyright &copy; 2021 ANANG PITRIYANTO SISTEM INFORMASI</p>
+       
+          </div>
+        </div>
+      </div>        
+                     
+                  
+          
+   
+           
+           
+     
+        
+     
+    </div>
+     
+     </div> <!-- div terakhir-->
+        
+     
+         <!-- Optional JavaScript -->
+         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        </body>
+        
+     </html>  
